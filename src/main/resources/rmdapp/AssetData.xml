@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assetdata>
+    <groups>
+        <uri>/group/enterprise-predix</uri>
+        <name>Predix Energy</name>
+        <description>Predix Energy</description>
+        <parent>/group/root</parent>
+        <level>enterprise</level>
+    </groups>
+    <groups>
+        <uri>/group/enterprise-san-ramon</uri>
+        <name>San Ramon Oil</name>
+        <description>San Ramon Oil</description>
+        <parent>/group/root</parent>
+        <level>enterprise</level>
+    </groups>
+    <groups>
+        <uri>/group/plant-richmond-refinery</uri>
+        <name>Richmond Refinery 1</name>
+        <description>Refinery</description>
+        <parent>/group/site-richmond</parent>
+        <level>plant</level>
+    </groups>
+    <groups>
+        <uri>/group/site-capetown</uri>
+        <name>South Africa, Cape Town</name>
+        <description>South Africa - Cape Town</description>
+        <parent>/group/enterprise-predix</parent>
+        <level>site</level>
+    </groups>
+    <groups>
+        <uri>/group/site-richmond</uri>
+        <name>Richmond</name>
+        <description>Richmond</description>
+        <parent>/group/enterprise-predix</parent>
+        <level>site</level>
+    </groups>
+    <classifications>
+        <uri>/classification/Asset-Meter-Extensions</uri>
+        <name>/classification/Asset-Meter-Extensions</name>
+        <description>Asset Meter Extensions</description>
+        <attributes>
+            <alertLevel>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertLevel>
+            <alertLevelValue>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertLevelValue>
+            <alertStatus>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertStatus>
+            <alertTime>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertTime>
+            <alertType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertType>
+            <deltaThreshold>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThreshold>
+            <deltaThresholdColor>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdColor>
+            <deltaThresholdDirection>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdDirection>
+            <deltaThresholdLevel>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdLevel>
+            <fieldSourceUri>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldSourceUri>
+            <fieldUri>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldUri>
+            <sourceType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </sourceType>
+        </attributes>
+    </classifications>
+    <classifications>
+        <uri>/classification/device</uri>
+        <name>device</name>
+        <description>Device</description>
+        <attributes>
+            <deviceId>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deviceId>
+            <deviceName>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deviceName>
+            <deviceType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deviceType>
+        </attributes>
+    </classifications>
+    <classifications>
+        <uri>/classification/field</uri>
+        <name>field</name>
+        <description>Field</description>
+        <attributes>
+            <fieldId>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldId>
+            <fieldType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldType>
+        </attributes>
+    </classifications>
+    <classifications>
+        <uri>/classification/fieldSourceInfo</uri>
+        <name>/classification/fieldSourceInfo</name>
+        <description>Field Source Info</description>
+        <attributes>
+            <defaultOsacbmDataType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </defaultOsacbmDataType>
+            <fieldId>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldId>
+            <queryDetail>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </queryDetail>
+            <sourceName>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </sourceName>
+            <sourcePropertyName>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </sourcePropertyName>
+            <sourceType>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </sourceType>
+            <timePropertyName>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </timePropertyName>
+            <timePropertyUnit>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </timePropertyUnit>
+            <updateDetail>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </updateDetail>
+        </attributes>
+    </classifications>
+    <classifications>
+        <uri>/classification/GasTurbineLate2014</uri>
+        <name>/classification/GasTurbineLate2014</name>
+        <description>Gas Turbine</description>
+        <parent>/classification/GasTurbine</parent>
+    </classifications>
+    <classifications>
+        <uri>/classification/GE_COMPRESSOR_CYLINDER</uri>
+        <name>/classification/GE_COMPRESSOR_CYLINDER</name>
+        <description>/classification/GE_COMPRESSOR_CYLINDER</description>
+        <parent>/classification/GE_COMPRESSOR_CYLINDER</parent>
+    </classifications>
+    <assets>
+        <uri>/asset/compressor-2015</uri>
+        <description>Bently Compressor</description>
+        <assetId>compressor-2015</assetId>
+        <parent>/asset/compressor-1234</parent>
+        <group>/group/plant-richmond-refinery</group>
+        <specification>/classification/GE_COMPRESSOR_CYLINDER</specification>
+        <propagateState>false</propagateState>
+        <empty>false</empty>
+        <attributes>
+            <machineControllerId>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>/asset/Bently.Nevada.3500.Rack1</e>
+                </value>
+            </machineControllerId>
+            <summaryMeter>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>crank-frame-velocity</e>
+                    <e>crank-frame-compressionratio</e>
+                </value>
+            </summaryMeter>
+        </attributes>
+        <meters class="object">
+            <crank-frame-compressionratio>
+                <@type>false</@type>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-123</fieldUri>
+                    <isKpi>true</isKpi>
+                    <machineUri>/Compressor-2015:CompressionRatio</machineUri>
+                    <nodeName>Compressor-2015:CompressionRatio</nodeName>
+                </meterDatasource>
+                <outputMaximum>3</outputMaximum>
+                <outputMinimum>2.5</outputMinimum>
+                <sourceTagId>Compressor-2015:CompressionRatio</sourceTagId>
+                <uri>/meter/crank-frame-compressionratio</uri>
+            </crank-frame-compressionratio>
+            <crank-frame-dischargepressure>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <isKpi>true</isKpi>
+                    <machineUri>/Compressor-2015:DischargePressure</machineUri>
+                    <meterExtensionsUri>/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure
+                    </meterExtensionsUri>
+                    <nodeName>Compressor-2015:DischargePressure</nodeName>
+                </meterDatasource>
+                <outputMaximum>23</outputMaximum>
+                <outputMinimum>0</outputMinimum>
+                <sourceTagId>Compressor-2015:DischargePressure</sourceTagId>
+                <uri>/meter/crank-frame-dischargepressure</uri>
+            </crank-frame-dischargepressure>
+            <crank-frame-maxpressure>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-456</fieldUri>
+                    <machineUri>/Compressor-2015:MaximumPressure</machineUri>
+                    <nodeName>Compressor-2015:MaximumPressure</nodeName>
+                </meterDatasource>
+                <outputMaximum>26</outputMaximum>
+                <outputMinimum>22</outputMinimum>
+                <sourceTagId>Compressor-2015:MaximumPressure</sourceTagId>
+                <uri>/meter/crank-frame-maxpressure</uri>
+            </crank-frame-maxpressure>
+            <crank-frame-minpressure>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-456</fieldUri>
+                    <machineUri>/Compressor-2015:MinimumPressure</machineUri>
+                    <nodeName>Compressor-2015:MinimumPressure</nodeName>
+                </meterDatasource>
+                <sourceTagId>Compressor-2015:MinimumPressure</sourceTagId>
+                <uri>/meter/crank-frame-minpressure</uri>
+            </crank-frame-minpressure>
+            <crank-frame-suctionpressure>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-456</fieldUri>
+                    <machineUri>/Compressor-2015:SuctionPressure</machineUri>
+                    <nodeName>Compressor-2015:SuctionPressure</nodeName>
+                </meterDatasource>
+                <outputMaximum>0.21</outputMaximum>
+                <outputMinimum>0</outputMinimum>
+                <sourceTagId>Compressor-2015:SuctionPressure</sourceTagId>
+                <uri>/meter/crank-frame-suctionpressure</uri>
+            </crank-frame-suctionpressure>
+            <crank-frame-temperature>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-456</fieldUri>
+                    <machineUri>/Compressor-2015:Temperature</machineUri>
+                    <nodeName>Compressor-2015:Temperature</nodeName>
+                </meterDatasource>
+                <outputMaximum>80</outputMaximum>
+                <outputMinimum>65</outputMinimum>
+                <sourceTagId>Compressor-2015:Temperature</sourceTagId>
+                <uri>/meter/crank-frame-temperature</uri>
+            </crank-frame-temperature>
+            <crank-frame-velocity>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <fieldUri>asset/adh-field-456</fieldUri>
+                    <isKpi>true</isKpi>
+                    <machineUri>/Compressor-2015:Velocity</machineUri>
+                    <nodeName>Compressor-2015:Velocity</nodeName>
+                </meterDatasource>
+                <outputMaximum>0.07</outputMaximum>
+                <outputMinimum>0</outputMinimum>
+                <sourceTagId>Compressor-2015:Velocity</sourceTagId>
+                <uri>/meter/crank-frame-velocity</uri>
+            </crank-frame-velocity>
+        </meters>
+    </assets>
+    <assets>
+        <uri>/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure</uri>
+        <assetId>/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure</assetId>
+        <specification>/classification/Asset-Meter-Extensions</specification>
+        <attributes>
+            <alertLevel>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertLevel>
+            <alertLevelValue>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertLevelValue>
+            <alertStatus>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>false</e>
+                </value>
+            </alertStatus>
+            <alertTime>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </alertTime>
+            <alertType>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>Analytic</e>
+                </value>
+            </alertType>
+            <deltaThreshold>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThreshold>
+            <deltaThresholdColor>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdColor>
+            <deltaThresholdDirection>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdDirection>
+            <deltaThresholdLevel>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </deltaThresholdLevel>
+            <fieldSourceUri>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldSourceUri>
+            <fieldUri>
+                <enumeration class="array"/>
+                <value class="array"/>
+            </fieldUri>
+            <sourceType>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>PredixTimeseries</e>
+                </value>
+            </sourceType>
+        </attributes>
+        <propagateState>false</propagateState>
+        <empty>false</empty>
+    </assets>
+    <assets>
+        <uri>/asset/plant-richmond-refinery-summary</uri>
+        <description>Summary for Richmond Plant</description>
+        <assetId>plant-richmond-refinery-summary</assetId>
+        <group>/asset/plant-richmond-refinery-summary/group</group>
+        <propagateState>false</propagateState>
+        <empty>false</empty>
+        <attributes>
+            <summary>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>/group/plant-richmond-refinery</e>
+                </value>
+            </summary>
+            <summaryMeter>
+                <enumeration class="array"/>
+                <value class="array">
+                    <e>crank-frame-dischargepressure</e>
+                    <e>crank-frame-compressionratio</e>
+                </value>
+            </summaryMeter>
+        </attributes>
+        <meters class="object">
+            <crank-frame-compressionratio>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <isKpi>true</isKpi>
+                    <machineUri>/Compressor-2015:CompressionRatio</machineUri>
+                    <nodeName>Compressor-2015:CompressionRatio</nodeName>
+                </meterDatasource>
+                <outputMaximum>3</outputMaximum>
+                <outputMinimum>2.5</outputMinimum>
+                <sourceTagId>Compressor-2015:CompressionRatio</sourceTagId>
+                <uri>/meter/crank-frame-compressionratio</uri>
+            </crank-frame-compressionratio>
+            <crank-frame-dischargepressure>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <controllerUri>/sample/machine/controller</controllerUri>
+                    <isKpi>true</isKpi>
+                    <machineUri>/Compressor-2015:DischargePressure</machineUri>
+                    <meterExtensionsUri>/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure
+                    </meterExtensionsUri>
+                    <nodeName>Compressor-2015:DischargePressure</nodeName>
+                </meterDatasource>
+                <outputMaximum>23</outputMaximum>
+                <outputMinimum>0</outputMinimum>
+                <sourceTagId>Compressor-2015:DischargePressure</sourceTagId>
+                <uri>/meter/crank-frame-dischargepressure</uri>
+            </crank-frame-dischargepressure>
+            <isomerization-reactor-output1>
+                <isManual>false</isManual>
+                <meterDatasource class="object">
+                    <isKpi>true</isKpi>
+                </meterDatasource>
+                <outputMaximum>100</outputMaximum>
+                <outputMinimum>72</outputMinimum>
+                <sourceTagId>isomerization-reactor-output1</sourceTagId>
+                <uri>/meter/c5-c6-isomerization-reactor-output</uri>
+            </isomerization-reactor-output1>
+        </meters>
+    </assets>
+    <meters>
+        <uri>/meter/c5-c6-isomerization-reactor-output</uri>
+        <name>Octane Number</name>
+        <description>C5/C6 isomerization process</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-compressionratio</uri>
+        <name>crank-frame-compressionratio</name>
+        <description>Crank Frame Compression Ratio</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-dischargepressure</uri>
+        <name>crank-frame-dischargepressure</name>
+        <description>Crank Frame Discharge Pressure</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>psi</uom>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-maxpressure</uri>
+        <name>crank-frame-maxpressure</name>
+        <description>Crank Frame Max Pressure</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>psi</uom>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-minpressure</uri>
+        <name>crank-frame-minpressure</name>
+        <description>Crank Frame Min Pressure</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>psi</uom>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-suctionpressure</uri>
+        <name>crank-frame-suctionpressure</name>
+        <description>Crank Frame Suction Pressure</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>psi</uom>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-temperature</uri>
+        <description>Crank Frame Temperature</description>
+        <name>crank-frame-temperature</name>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>F</uom>
+    </meters>
+    <meters>
+        <uri>/meter/crank-frame-velocity</uri>
+        <name>crank-frame-velocity</name>
+        <description>Crank Frame Velocity</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>m/s</uom>
+    </meters>
+    <meters>
+        <uri>/meter/summary-output-mbd</uri>
+        <name>summary-output-mbd</name>
+        <description>C5/C6 isomerization process summary output in mbd</description>
+        <dataType>number</dataType>
+        <meterType>Continuous</meterType>
+        <uom>mb/d</uom>
+    </meters>
+</assetdata>

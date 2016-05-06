@@ -1,0 +1,529 @@
+{
+	"meters": [{
+		"uri": "/meter/c5-c6-isomerization-reactor-output",
+		"name": "Octane Number",
+		"description": "C5/C6 isomerization process",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-compressionratio",
+		"name": "crank-frame-compressionratio",
+		"description": "Crank Frame Compression Ratio",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-dischargepressure",
+		"name": "crank-frame-dischargepressure",
+		"description": "Crank Frame Discharge Pressure",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "psi",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-maxpressure",
+		"name": "crank-frame-maxpressure",
+		"description": "Crank Frame Max Pressure",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "psi",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-minpressure",
+		"name": "crank-frame-minpressure",
+		"description": "Crank Frame Min Pressure",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "psi",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-suctionpressure",
+		"name": "crank-frame-suctionpressure",
+		"description": "Crank Frame Suction Pressure",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "psi",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-temperature",
+		"name": "crank-frame-temperature",
+		"description": "Crank Frame Temperature",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "F",
+		"tags": []
+	}, {
+		"uri": "/meter/crank-frame-velocity",
+		"name": "crank-frame-velocity",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "m/s",
+		"tags": []
+	}, {
+		"uri": "/meter/summary-output-mbd",
+		"name": "summary-output-mbd",
+		"description": "C5/C6 isomerization process summary output in mbd",
+		"dataType": "number",
+		"meterType": "Continuous",
+		"uom": "mb/d",
+		"tags": []
+	}],
+	"groups": [{
+		"parent": "/group/root",
+		"description": "Predix Energy",
+		"uri": "/group/enterprise-predix",
+		"level": "enterprise",
+		"name": "Predix Energy"
+	}, {
+		"parent": "/group/root",
+		"description": "San Ramon Oil",
+		"uri": "/group/enterprise-san-ramon",
+		"level": "enterprise",
+		"name": "San Ramon Oil"
+	}, {
+		"parent": "/group/site-richmond",
+		"description": "Refinery",
+		"uri": "/group/plant-richmond-refinery",
+		"level": "plant",
+		"name": "Richmond Refinery 1"
+	}, {
+		"parent": "/group/enterprise-predix",
+		"description": "South Africa - Cape Town",
+		"uri": "/group/site-capetown",
+		"level": "site",
+		"name": "South Africa, Cape Town"
+	}, {
+		"parent": "/group/enterprise-predix",
+		"description": "Richmond",
+		"uri": "/group/site-richmond",
+		"level": "site",
+		"name": "Richmond"
+	}],
+	"classifications": [{
+		"description": "Asset Meter Extensions",
+		"uri": "/classification/Asset-Meter-Extensions",
+		"name": "/classification/Asset-Meter-Extensions",
+		"obsolete": false,
+		"attributes": {
+			"alertStatus": {
+				"enumeration": [],
+				"value": []
+			},
+			"alertType": {
+				"enumeration": [],
+				"value": [
+					"Calculated"
+				]
+			},
+			"alertLevel": {
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"enumeration": [],
+				"value": []
+			},
+			"fieldSourceUri": {
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"enumeration": [],
+				"value": []
+			}
+		},
+		"tags": []
+	}, {
+		"description": "Device",
+		"uri": "/classification/device",
+		"name": "device",
+		"obsolete": false,
+		"attributes": {
+			"deviceType": {
+				"enumeration": [],
+				"value": []
+			},
+			"deviceName": {
+				"enumeration": [],
+				"value": []
+			},
+			"deviceId": {
+				"enumeration": [],
+				"value": []
+			}
+		},
+		"tags": []
+	}, {
+		"description": "Field",
+		"uri": "/classification/field",
+		"name": "field",
+		"obsolete": false,
+		"attributes": {
+			"fieldId": {
+				"enumeration": [],
+				"value": []
+			},
+			"fieldType": {
+				"enumeration": [],
+				"value": []
+			}
+		},
+		"tags": []
+	}, {
+		"description": "Field Source Info",
+		"uri": "/classification/fieldSourceInfo",
+		"name": "/classification/fieldSourceInfo",
+		"obsolete": false,
+		"attributes": {
+			"sourceType": {
+				"enumeration": [],
+				"value": []
+			},
+			"sourceName": {
+				"enumeration": [],
+				"value": []
+			},
+			"sourcePropertyName": {
+				"enumeration": [],
+				"value": []
+			},
+			"timePropertyName": {
+				"enumeration": [],
+				"value": []
+			},
+			"timePropertyUnit": {
+				"enumeration": [],
+				"value": []
+			},
+			"defaultOsacbmDataType": {
+				"enumeration": [],
+				"value": []
+			},
+			"queryDetail": {
+				"enumeration": [],
+				"value": []
+			},
+			"updateDetail": {
+				"enumeration": [],
+				"value": []
+			},
+			"fieldId": {
+				"enumeration": [],
+				"value": []
+			}
+		},
+		"tags": []
+	}, {
+		"parent": "/classification/GasTurbine",
+		"description": "Gas Turbine",
+		"uri": "/classification/GasTurbineLate2014",
+		"name": "/classification/GasTurbineLate2014",
+		"obsolete": false,
+		"tags": []
+	}, {
+		"parent": "/classification/GE_COMPRESSOR_CYLINDER",
+		"description": "/classification/GE_COMPRESSOR_CYLINDER",
+		"uri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"name": "/classification/GE_COMPRESSOR_CYLINDER",
+		"obsolete": false,
+		"tags": []
+	}],
+	"assets": [{
+		"@type":"Asset",
+		"uri": "/asset/compressor-2015",
+		"description": "Bently Compressor",
+		"obsolete": false,
+		"empty": false,
+		"assetId": "compressor-2015",
+		"parent": "/asset/compressor-1234",
+		"specification": "/classification/GE_COMPRESSOR_CYLINDER",
+		"propagateState": false,
+		"group": "/group/plant-richmond-refinery",
+		"attributes": {
+			"machineControllerId": {
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack1"
+				]
+			},
+			"summaryMeter": {
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity",
+					"crank-frame-compressionratio"
+				]
+			}
+		},
+		"tags": [],
+		"meters": {
+			"crank-frame-compressionratio": {
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2015:CompressionRatio",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2015:DischargePressure",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:DischargePressure",
+					"meterExtensionsUri": "/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-suctionpressure": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-suctionpressure",
+				"sourceTagId": "Compressor-2015:SuctionPressure",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:SuctionPressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 0.21
+			},
+			"crank-frame-maxpressure": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-maxpressure",
+				"sourceTagId": "Compressor-2015:MaximumPressure",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:MaximumPressure"
+				},
+				"isManual": false,
+				"outputMinimum": 22,
+				"outputMaximum": 26
+			},
+			"crank-frame-minpressure": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-minpressure",
+				"sourceTagId": "Compressor-2015:MinimumPressure",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:MinimumPressure"
+				},
+				"isManual": false
+			},
+			"crank-frame-velocity": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-velocity",
+				"sourceTagId": "Compressor-2015:Velocity",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:Velocity"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 0.07
+			},
+			"crank-frame-temperature": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-temperature",
+				"sourceTagId": "Compressor-2015:Temperature",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:Temperature"
+				},
+				"isManual": false,
+				"outputMinimum": 65,
+				"outputMaximum": 80
+			}
+		}
+	}, {
+		"@type":"Asset",
+		"uri": "/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure",
+		"obsolete": false,
+		"empty": false,
+		"assetId": "/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure",
+		"specification": "/classification/Asset-Meter-Extensions",
+		"propagateState": false,
+		"attributes": {
+			"alertStatus": {
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"enumeration": [],
+				"value": []
+			}
+		},
+		"tags": []
+	}, {
+		"@type":"Asset",
+		"uri": "/asset/plant-richmond-refinery-summary",
+		"description": "Summary for Richmond Plant",
+		"obsolete": false,
+		"empty": false,
+		"assetId": "plant-richmond-refinery-summary",
+		"propagateState": false,
+		"group": "/asset/plant-richmond-refinery-summary/group",
+		"attributes": {
+			"summary": {
+				"enumeration": [],
+				"value": [
+					"/group/plant-richmond-refinery"
+				]
+			},
+			"summaryMeter": {
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-dischargepressure",
+					"crank-frame-compressionratio"
+				]
+			}
+		},
+		"tags": [],
+		"meters": {
+			"isomerization-reactor-output1": {
+				"@type": "AssetMeter",			
+				"uri": "/meter/c5-c6-isomerization-reactor-output",
+				"sourceTagId": "isomerization-reactor-output1",
+				"meterDatasource": {
+					"isKpi": "true"
+				},
+				"isManual": false,
+				"outputMinimum": 72,
+				"outputMaximum": 100
+			},
+			"crank-frame-dischargepressure": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2015:DischargePressure",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:DischargePressure",
+					"meterExtensionsUri": "/asset/compressor-2015.meter-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio": {
+				
+				"@type": "AssetMeter",			
+				"uri": "/meter/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2015:CompressionRatio",
+				"meterDatasource": {
+					"nodeName": "Compressor-2015:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2015:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			}
+		}
+	}]
+}
