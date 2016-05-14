@@ -19,7 +19,7 @@ Build it
 
 Launch the service locally
 
-      java -jar target/dataseed-service-0.0.1.jar
+      java -jar target/data-seed-service-1.3.9.jar
       
 Look for the log entry indicating the port used.  e.g. "Tomcat started on port(s): 8184 (http)".  In a browser go to
 
